@@ -25,66 +25,66 @@ pip install mrandom
 **Importing the module**
 
 ``` python
-import mrandom
+>>> import mrandom
 
 # 1 = 32 bit, 2 = 64 bit algorithm
-random = mrandom.RandomGenerator(s)
+>>> random = mrandom.RandomGenerator(s)
 ```
 
 # Examples
 
 **Return a random number between 0 and 1**
 ``` python
-print(random.rand())
-# output: 0.9888888888888889
+>>> print(random.rand())
+0.9888888888888889
 ```
 
 **Return a random number between a and b (inclusive)**
 ``` python
-print(random.randint(a, b))
-# output: 1
+>>> print(random.randint(a, b))
+1
 ```
 
 **Return a random number between a and b (exclusive)**
 ``` python
-print(random.randrange(a, b))
-# output: 1
+>>> print(random.randrange(a, b))
+12
 ```
 
 **Return k random numbers between a and b (inclusive)**
 ``` python
-print(random.sample(a, b, k))
-# output: [1, 2, 3, 4, 5]
+>>> print(random.sample(a, b, k))
+[1, 2, 3, 4, 5]
 ```
 
 **Return a random number from a list l**
 ``` python
-print(random.choice(l))
-# output: 1
+>>> print(random.choice(l))
+21
 ```
 
 **Return shuffled list l**
 ``` python
-print(random.shuffle(l))
-# output: [1, 3, 5, 4, 2]
+>>> print(random.shuffle(l))
+[1, 3, 5, 4, 2]
 ```
 
 **Return sample of flipping k coins n times**
 ``` python
-print(random.flip_coin(n, k))
-# output: [1, 0, 0, 1, 0]
+>>> print(random.flip_coin(n, k))
+[1, 0, 0, 1, 0]
 ```
 
 **Return sample of rolling k dices n times**
 ``` python
-print(random.roll_dice(n, k))
-# output: [[1, 4], [1, 1]]
+>>> print(random.roll_dice(n, k))
+[[1, 4], [1, 1]]
 ```
 
 **Return sample of picking a card from a deck of 52 cards n times**
 ``` python
-print(random.shuffle_deck(n))
-# output: ["Ace of Spades", "Ace of Hearts", "Ace of Clubs", "Ace of Diamonds", "Ace of Clubs"]
+>>> print(random.shuffle_deck(n))
+["Ace of Spades", "Ace of Hearts", "Ace of Clubs", "Ace of Diamonds", "Ace of Clubs"]
 ```
 ---
 
