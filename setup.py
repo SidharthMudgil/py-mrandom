@@ -14,9 +14,8 @@ setup(
     packages=['mrandom'],
     install_requires=[],
     classifiers=[
-        'Development Status :: Alpha',
+        'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
-        'Intended Audience :: Developers, Education, Students',
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
         'Operating System :: OS Independent',
