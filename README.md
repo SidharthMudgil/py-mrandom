@@ -91,8 +91,7 @@ pip install mrandom
 **Classes**
 `mrandom.RandomGenerator` - Random number generator
 
-Methods:
-
+**Methods**
 | Methods | Description |
 | --- | --- |
 | `rand()` | Return a random number between 0 and 1 |
