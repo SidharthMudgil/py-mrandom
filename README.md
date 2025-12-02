@@ -103,3 +103,4 @@ pip install mrandom
 | `flip_coin(n, k)` | Return sample of flipping k coins n times |
 | `roll_dice(n, k)` | Return sample of rolling k dices n times |
 | `shuffle_deck(n)` | Return sample of picking a card from a deck of 52 cards n times |
+adding changes
