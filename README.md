@@ -86,7 +86,18 @@ pip install mrandom
 ---
 
 **Classes**
-`mrandom.RandomGenerator` - Random number generator
+class mrandom.RandomGenerator
+RandomGenerator is a simple pseudo-random number generator based on the Mersenne Twister algorithm.
+It supports generating random numbers, picking items from lists, shuffling sequences, flipping coins, rolling dice, and drawing cards from a deck.
+
+Parameters:
+seed (int, optional):
+The starting value for the generator.
+Use this when you want reproducible random results.
+If not provided, a default or time-based seed is used.
+version (int, optional):
+Selects the algorithm version.
+Use 1 for the 32-bit version, or 2 for the 64-bit version.
 
 **Methods**
 | Methods | Description |
