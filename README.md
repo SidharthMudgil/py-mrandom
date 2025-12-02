@@ -102,5 +102,17 @@ pip install mrandom
 | `shuffle(l)` | Return shuffled list l |
 | `flip_coin(n, k)` | Return sample of flipping k coins n times |
 | `roll_dice(n, k)` | Return sample of rolling k dices n times |
-| `shuffle_deck(n)` | Return sample of picking a card from a deck of 52 cards n times |
-adding changes
+| `shuffle_deck(n)` | Return sample of picking a card from a deck of 52 cards n times 
+Features
+- Implements the Mersenne Twister (MT19937) algorithm for 32-bit random number generation
+- Supports seeding for reproducible results
+- Offers methods for generating integers, floats, and booleans
+- Lightweight and easy to integrate into larger projects
+
+🧠 What is Mersenne Twister?
+The Mersenne Twister is a widely used pseudo-random number generator (PRNG) known for:
+- A very long period of 2^{19937}-1
+- High-dimensional equidistribution
+- Fast generation speed and good statistical properties
+
+
