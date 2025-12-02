@@ -1,8 +1,5 @@
 # mrandom
-> This package provides a random number generator.
-> It is based on the [Mersenne Twister](http://en.wikipedia.org/wiki/Mersenne_Twister) algorithm.
-> It includes both 32 and 64 bit versions of the algorithm.
-> The generator has large period of 2^19937-1 
+> mrandom is a Python package that provides a high-quality random number generator along with utility functions like sampling, shuffling, rolling dice, flipping coins, and drawing cards.
 
 
 
